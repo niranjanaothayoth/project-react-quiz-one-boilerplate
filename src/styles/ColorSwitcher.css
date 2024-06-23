@@ -1,0 +1,88 @@
+.color-switcher-wrapper {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.color-switcher {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+input[type=checkbox].color-switcher-input {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label.color-switcher-label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 48px; /* Updated width */
+    height: 28px; /* Updated height */
+    background: var(--purple); /* Set the background color to #A729F5 */
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label.color-switcher-label:after {
+    content: '';
+    position: absolute;
+    top: 4px; /* Adjusted position */
+    left: 4px; /* Adjusted position */
+    width: 20px; /* Updated width */
+    height: 20px; /* Updated height */
+    background: #FFF; /* Set the background color to #FFFFFF */
+    border-radius: 50%; /* Changed to 50% for a circular shape */
+    transition: 0.3s;
+}
+
+
+input.color-switcher-input:checked + label:after {
+    left: calc(100% - 4px); /* Adjusted position */
+    transform: translateX(-100%);
+}
+
+label.color-switcher-label:active:after {
+    width: 20px; /* Updated width */
+}
+
+@media (max-width: 1200px) {
+    .color-switcher-wrapper {
+        top: 40px;
+    }
+}
+
+@media (max-width: 700px){
+    .color-switcher-wrapper {
+        top: 16px;
+        height: 40px;
+    }
+    .color-switcher {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    .color-switcher-wrapper img {
+        transform: scale(0.83);
+    }
+    
+    label.color-switcher-label {
+        width: 32px;
+        height: 20px;
+    }
+    
+    label.color-switcher-label:after {
+        width: 12px; /* Updated width */
+        height: 12px; /* Updated height */
+    }
+    
+    label.color-switcher-label:active:after {
+        width: 12px; /* Updated width */
+    }
+}

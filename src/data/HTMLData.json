@@ -1,0 +1,63 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyperlinks Text Mark Language",
+        "Hyperlinking Text Management Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which HTML tag is used for the largest heading?",
+      "options": ["<h1>", "<h2>", "<h3>", "<h6>"],
+      "answer": "<h1>"
+    },
+    {
+      "question": "Which HTML element is used for creating a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<connection>"],
+      "answer": "<a>"
+    },
+    {
+      "question": "What is the purpose of the <alt> attribute in an <img> tag?",
+      "options": [
+        "To provide alternative text for an image",
+        "To define the alignment of an image",
+        "To specify the width of an image",
+        "To link to another page"
+      ],
+      "answer": "To provide alternative text for an image"
+    },
+    {
+      "question": "Which HTML element is used for inserting a line break?",
+      "options": ["<br>", "<lb>", "<break>", "<line>"],
+      "answer": "<br>"
+    },
+    {
+      "question": "Which HTML tag is used to create an unordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "answer": "<ul>"
+    },
+    {
+      "question": "Which attribute is used to specify a unique identifier for an HTML element?",
+      "options": ["id", "class", "name", "type"],
+      "answer": "id"
+    },
+    {
+      "question": "Which HTML tag is used to create a table row?",
+      "options": ["<tr>", "<td>", "<th>", "<table>"],
+      "answer": "<tr>"
+    },
+    {
+      "question": "What is the correct HTML element for playing video files?",
+      "options": ["<video>", "<media>", "<movie>", "<show>"],
+      "answer": "<video>"
+    },
+    {
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "options": ["<style>", "<css>", "<stylesheet>", "<head>"],
+      "answer": "<style>"
+    }
+]
+  
